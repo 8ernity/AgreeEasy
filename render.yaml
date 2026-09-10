@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: agree-easy
+    env: node
+    # Use npm or bun based on what's available
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false # Requires user to input this in the Render dashboard

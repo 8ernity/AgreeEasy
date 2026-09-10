@@ -1,0 +1,7 @@
+{
+  "name": "AgreeEasy",
+  "description": "Intelligent agreement analysis and conversational assistant powered by the Gemini API. Understand contracts, clauses, risks, and obligations in plain language before signing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
